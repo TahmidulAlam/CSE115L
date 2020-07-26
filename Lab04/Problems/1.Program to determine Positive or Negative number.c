@@ -1,3 +1,6 @@
+//program determine whether a number is positive or negative
+
+
 #include <stdio.h>
 int main()
 {
@@ -5,7 +8,7 @@ int main()
 
     printf("Enter a number:");
     scanf("%f", &x);
-
+    //using "if else-if" for different conditions
     if (x > 0)
         printf("%f is  positive", x);
     else if (x < 0)

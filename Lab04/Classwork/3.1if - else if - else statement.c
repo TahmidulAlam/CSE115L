@@ -7,7 +7,8 @@ int main()
     printf("Enter your final exam mark:");
     scanf("%f", &i);
 
-    if(i>=93)                      //using "if-else if-else statement" for different grades
+    //using "if-else if-else statement" for different grades
+    if(i>=93)
        printf("Grade is A");
     else if(i>=90 && i<=92)
        printf("Grade is A-");

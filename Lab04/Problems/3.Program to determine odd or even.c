@@ -8,6 +8,7 @@ int main()
     printf("Enter a number:");
     scanf("%d", &i);
 
+    //using modulus to find remainder and determine if it is even or odd
     if(i % 2 == 0)
       printf("%d is even", i);
     else

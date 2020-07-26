@@ -8,6 +8,7 @@ int main()
     printf("Enter a number:");
     scanf("%d", &i);
 
+    //using modulus to find remainder and determine multiple of 7 or not
     if(i % 7 == 0)
       printf("%d is a multiple of 7", i);
     else
