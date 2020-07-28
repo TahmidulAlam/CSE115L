@@ -1,18 +1,19 @@
 //Program to check whether the number is multiple of 7 or not
 
 #include<stdio.h>
+
 int main()
 {
-    int i;
+    int Z;
 
     printf("Enter a number:");
-    scanf("%d", &i);
+    scanf("%d", &Z);
 
     //using modulus to find remainder and determine multiple of 7 or not
-    if(i % 7 == 0)
-      printf("%d is a multiple of 7", i);
+    if(Z%7==0)
+      printf("%d is a multiple of 7",Z);
     else
-      printf("%d is not a multiple of 7", i);
+      printf("%d is not a multiple of 7",Z);
 
     return 0;
 }

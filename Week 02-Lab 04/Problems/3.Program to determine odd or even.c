@@ -1,18 +1,19 @@
 //Program to check whether the number is even or odd
 
 #include<stdio.h>
+
 int main()
 {
-    int i;
+    int Z;
 
     printf("Enter a number:");
-    scanf("%d", &i);
+    scanf("%d", &Z);
 
     //using modulus to find remainder and determine if it is even or odd
-    if(i % 2 == 0)
-      printf("%d is even", i);
+    if(Z%2==0)
+      printf("%d is even",Z);
     else
-      printf("%d is odd", i);
+      printf("%d is odd",Z);
 
     return 0;
 }

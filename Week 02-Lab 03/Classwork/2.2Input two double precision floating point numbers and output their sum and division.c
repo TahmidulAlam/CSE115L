@@ -17,7 +17,11 @@ int main()
     y=a/b;
 
     printf("%lf + %lf = %lf\n", a, b, x);
-    printf("%lf / %lf = %lf\n", a, b, y);
+    if(b==0)
+      printf("Math Error,cannot divide by zero");
+    else
+      printf("%lf / %lf = %lf\n", a, b, y);
+
 
     return 0;
 }

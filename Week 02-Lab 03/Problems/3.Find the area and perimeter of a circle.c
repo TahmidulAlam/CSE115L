@@ -2,19 +2,22 @@
 and finding the perimeter,area of circle*/
 
 #include<stdio.h>
+#include<math.h>
+
 int main()
 {
-    double radius, perimeter, area;
+    float r,C,A;
+    float pi=3.1416;
 
     printf("Enter the radius:");
-    scanf("%lf", &radius);
+    scanf("%f", &r);
 
     //using general formula for finding area and perimeter
     // using the value of pi as 3.141592654
-    perimeter=2*3.141592654*radius;
-    area=3.141592654*radius*radius;
+    C=2*pi*r;
+    A=pi*pow(r,2);
 
-    printf("Area of the circle:%lf\nPerimeter of the circle:%lf", area, perimeter);
+    printf("Area of the circle:%f\nPerimeter of the circle:%f", A, C);
 
     return 0;
 }

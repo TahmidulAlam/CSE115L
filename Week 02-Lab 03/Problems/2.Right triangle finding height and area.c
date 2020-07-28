@@ -4,28 +4,30 @@ height and area as output*/
 
 #include<stdio.h>
 #include<math.h>
+
 int main()
 {
-    double base,height,hypotenuse,area;
+    float b,h,A,hyp;
 
     printf("enter base:");
-    scanf("%lf", &base);
+    scanf("%f", &b);
+
     printf("enter hypotenuse:");
-    scanf("%lf", &hypotenuse);
+    scanf("%f", &hyp);
 
     /*using Pythagoras Theorem and pow(),sqrt()function
      for finding height and area*/
-    height=sqrt(pow(hypotenuse,2)-pow(base,2));
-    area=0.5*base*height;
+    h=sqrt(pow(hyp,2)-pow(b,2));
+    A=(b*h)/2;
 
     //using if else statement for different conditions
-    if(base>hypotenuse)
-       printf("base cannot be higher than hypotenuse");
-    else if(base<hypotenuse)
-       printf("Height is:%lf\nArea is:%lf\n", height, area);
+    if(b>hyp)
+       printf("Base's length can't be longer than hypotenuse.");
     else
-       printf("Height is:%lf\nArea is:%lf\nThe triangle is a degenerate triangle therefore area and height both are zero", height, area);
+       printf("Height is:%f\nArea is:%f\n", h, A);
 
+    if(A==0)
+       printf("The triangle's three points are collinear,\n so area and height both are 0");
 
     return 0;
 }

@@ -1,16 +1,17 @@
 //Program to find the average of five numbers
-
 #include<stdio.h>
+
+
 int main()
 {
-    double var1, var2, var3, var4, var5, average;
+    float a,b,c,d,e,x;
     printf("Enter 5 numbers:");
-    scanf("%lf %lf %lf %lf %lf", &var1, &var2, &var3, &var4, &var5);
+    scanf("%f%f%f%f%f",&a,&b,&c,&d,&e);
 
     //using sum and division for getting the value of average
-    average=(var1+var2+var3+var4+var5)/5;
+    x=(a+b+c+d+e)/5;
 
-    printf("average is: %lf", average);
+    printf("average is: %f", x);
 
     return 0;
 }
