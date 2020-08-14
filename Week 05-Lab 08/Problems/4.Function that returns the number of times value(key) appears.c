@@ -11,22 +11,22 @@ int main()
     scanf("%d", &n);
     int a[n];
 
-    printf("\nArray Elements:");
+    printf("Array Elements:");
 
     for(i=0;i<n;i++)                //for loop for putting input integers in array
     {
        scanf("%d", &a[i]);
     }
 
-    printf("\nSearch Key:");        //getting the key
+    printf("Search Key:");        //getting the key
     scanf("%d", &x);
 
     z=countSearchKey(a,n,x);        //Using the function
 
     if(z==0)
-      printf("\nSearch key does not appear\n");
+      printf("Search key does not appear");
     else
-      printf("\nSearch Key appears %d times\n", z);
+      printf("Search Key appears %d times", z);
 
     return 0;
 }

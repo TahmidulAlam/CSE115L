@@ -7,7 +7,7 @@ int main()
 {
     int a[5], i;                   //Declaring array and integer variable
 
-    printf("Enter 5 intgers:");
+    printf("Enter array elements:");
 
     for(i=0;i<5;i++)               //taking input of 5 integers using for loop
     {
@@ -20,7 +20,7 @@ int main()
           a[0]=a[i];
     }
 
-    printf("\nHigest integer:%d\n", a[0]);
+    printf("Largest element:%d", a[0]);
 
     return 0;
 }
