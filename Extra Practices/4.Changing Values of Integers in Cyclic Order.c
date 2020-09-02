@@ -2,10 +2,10 @@
 
 int main()
 {
-    int a, b, c, i;
+    int a, b, c, i;             //declaring integer data type of variables
 
     printf("a=");
-    scanf("%d", &a);
+    scanf("%d", &a);            //taking inputs
 
     printf("b=");
     scanf("%d", &b);
@@ -13,13 +13,14 @@ int main()
     printf("c=");
     scanf("%d", &c);
 
-    i=a;
+    i=a;                        //using temporary variable to store value of a
     a=b;
     b=c;
     c=i;
 
     printf("After changing the values in cyclic order\n");
 
+    //printing result
     printf("a=%d\n", a);
     printf("b=%d\n", b);
     printf("c=%d\n", c);
