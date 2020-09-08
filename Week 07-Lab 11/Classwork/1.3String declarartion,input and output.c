@@ -5,7 +5,7 @@
 int main()
 {
     //declaring character array for string
-    char str[20];
+    char str[40];
     int i;
 
     printf("Enter 20 characters: ");
