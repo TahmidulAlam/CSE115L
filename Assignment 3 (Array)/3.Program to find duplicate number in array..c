@@ -25,7 +25,7 @@ int main()
        {
           if(a[j]==A[i])
           {
-            printf("duplicate number:%d\n",a[j]);
+            printf("\nduplicate number:%d\n",a[j]);
             printf("Index:");
             for(k=0;k<n;k++)                  //using another for loop inside if statement for finding index
             {
