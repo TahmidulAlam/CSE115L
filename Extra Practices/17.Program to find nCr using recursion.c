@@ -10,7 +10,7 @@ int main()
     printf("Enter values of n and r: ");
     scanf("%d %d", &n, &r);
 
-    if(n<r||n<0||r<0)
+    if(n<r||n<0||r<0)                              //preconditions
       printf("Invalid Input");
     else
     {
@@ -23,8 +23,10 @@ int main()
 
 int C(int n, int r)
 {
-     if(n==r)
+     if(n==r)                                      //base conditions
        return 1;
+     else if(r==1)
+       return n;
      else if(r==0)
        return 1;
      else

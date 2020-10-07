@@ -11,7 +11,7 @@ int main()
     scanf("%d", &n);
 
 
-    if(n<0)
+    if(n<0)                                                 //Precondition
       printf("\nInvalid Input\n");
     else
     {
@@ -24,7 +24,7 @@ int main()
 
 int T(int n)
 {
-    if(n==0)
+    if(n==0)                                                //base conditions
       return 0;
     else if(n==1)
       return 1;
