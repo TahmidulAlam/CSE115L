@@ -1,0 +1,60 @@
+Customer serial no. 1
+Name: 
+Number: 
+Balance(Tk): 0.000000
+Data (MB): 0.000000
+
+Customer serial no. 2
+Name: Ahique
+Number: +111256934
+Balance(Tk): 50.000000
+Data (MB): 150.000000
+
+Customer serial no. 3
+Name: Apon
+Number: +125693
+Balance(Tk): 50.000000
+Data (MB): 150.000000
+
+Customer serial no. 4
+Name: Hasan
+Number: +111693445
+Balance(Tk): 70.000000
+Data (MB): 125.000000
+
+Customer serial no. 5
+Name: Meraj
+Number: +125698
+Balance(Tk): 70.000000
+Data (MB): 125.000000
+
+Customer serial no. 6
+Name: Nirjhor Islam
+Number: +12567789
+Balance(Tk): 80.000000
+Data (MB): 126.000000
+
+Customer serial no. 7
+Name: Nurul Alam
+Number: +8801715413112
+Balance(Tk): 80.000000
+Data (MB): 126.000000
+
+Customer serial no. 8
+Name: Tahmidul Alam
+Number: +111789
+Balance(Tk): 80.000000
+Data (MB): 126.000000
+
+Customer serial no. 9
+Name: Tanim 
+Number: +11125694
+Balance(Tk): 80.000000
+Data (MB): 126.000000
+
+Customer serial no. 10
+Name: Tanveer Hossain
+Number: +880161464462
+Balance(Tk): 80.000000
+Data (MB): 126.000000
+

@@ -1,0 +1,5 @@
+Customer serial no. 6
+Name: Nirjhor Islam
+Number: +12567789
+Balance(Tk): 80.000000
+Data (MB): 126.000000
